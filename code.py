@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from PIL import Image
+import openpyxl as opxl
 
 
 st.title('多项列转换程序')
@@ -34,7 +35,7 @@ st.spinner(text='In progress...')
   
 
 if file is not None:
-    oridata=pd.read_excel(file)
+    oridata=opxl.Workbook(file)
     oridata=pd.DataFrame(oridata)
     col=oridata.columns
     col1name=col[0]    

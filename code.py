@@ -13,7 +13,7 @@ import pip
 pip.main(["install", "openpyxl"])
 
 
-st.title('多项列转换程序')
+st.title('矩阵转换程序')
 
 imagebe = Image.open("before.png")
 st.image(imagebe, caption='处理前（符合人工录入习惯的格式）',

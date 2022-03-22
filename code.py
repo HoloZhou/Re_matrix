@@ -10,8 +10,6 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 
-from io import BytesIO
-
 
 
 st.title('多项列转换程序')

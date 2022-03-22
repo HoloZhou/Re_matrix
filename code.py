@@ -9,7 +9,8 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from PIL import Image
-
+import pip
+pip.main(["install", "openpyxl"])
 
 
 st.title('多项列转换程序')

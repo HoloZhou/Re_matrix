@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Mar 21 14:12:15 2022
+Created on Tue Mar 22 10:07:12 2022
 
 @author: Zhou N
 """
@@ -35,7 +35,7 @@ st.spinner(text='In progress...')
   
 
 if file is not None:
-    oridata=opxl.Workbook(file)
+    oridata=pd.read_excel(file)
     oridata=pd.DataFrame(oridata)
     col=oridata.columns
     col1name=col[0]    

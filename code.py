@@ -9,10 +9,10 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from PIL import Image
-import os
+
 from io import BytesIO
 
-os.chdir("C:\\Myfiles\\re_arrange")
+
 
 st.title('多项列转换程序')
 

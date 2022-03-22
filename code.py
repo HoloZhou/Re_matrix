@@ -34,8 +34,7 @@ st.spinner(text='In progress...')
   
 
 if file is not None:
-    oridata = open(file)
-    oridata=pd.read_excel(oridata)
+    oridata=pd.read_excel(file)
     oridata=pd.DataFrame(oridata)
     col=oridata.columns
     col1name=col[0]    
